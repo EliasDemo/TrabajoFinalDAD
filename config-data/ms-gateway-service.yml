@@ -35,20 +35,17 @@ spring:
           uri: lb://ms-client-service
           predicates:
             - Path=/Client/**
-          filters:
-            - AuthFilter
+          
         - id: ms-pedido-service
           uri: lb://ms-pedido-service
           predicates:
             - Path=/Order/**
-          filters:
-            - AuthFilter
+
         - id: ms-venta-service
           uri: lb://ms-venta-service
           predicates:
             - Path=/Sale/**, /reports/**
-          filters:
-            - AuthFilter
+
         - id: ms-auth-service
           uri: lb://ms-auth-service
           predicates:
