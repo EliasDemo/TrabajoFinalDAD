@@ -5,3 +5,16 @@ spring:
     active: development
   config:
     import: optional:configserver:http://root:123456@localhost:7070
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: bolsalaboralolef@gmail.com
+    password: "bhprwaebvbtfobmm"
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+      mail.smtp.starttls.required: true
+      mail.smtp.connectiontimeout: 5000
+      mail.smtp.timeout: 5000
+      mail.smtp.writetimeout: 5000

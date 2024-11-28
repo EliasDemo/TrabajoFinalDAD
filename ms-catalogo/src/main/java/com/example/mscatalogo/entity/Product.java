@@ -11,6 +11,7 @@ public class Product {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String name;
+    private String fotoproducto; // Ruta de la imagen
     private String description;
     private String code;
     private Integer stock;
