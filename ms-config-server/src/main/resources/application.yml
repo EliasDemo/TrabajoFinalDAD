@@ -10,7 +10,7 @@ spring:
         git:
           uri: https://github.com/EliasDemo/TrabajoFinalDAD.git # ruta del repositorio git
           searchPaths: config-data
-          default-label: evaluacion_3u
+          default-label: main
   security:
     user:
       name: root
